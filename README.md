@@ -40,7 +40,7 @@ fastapi
 uvicorn
 
 
-'** How to Run the API **'
+**How To Run The API.**
 
 '**Clone the repository:**'
 git clone [https://github.com/sidharthapanda2005/TimeSeries_project_Forecasting.git](https://github.com/sidharthapanda2005/TimeSeries_project_Forecasting.git)

@@ -40,30 +40,30 @@ fastapi
 uvicorn
 
 
-** How to Run the API **
+'** How to Run the API **'
 
-**Clone the repository:**
+'**Clone the repository:**'
 git clone [https://github.com/sidharthapanda2005/TimeSeries_project_Forecasting.git](https://github.com/sidharthapanda2005/TimeSeries_project_Forecasting.git)
 cd your-repo-name
 
-**You can install them via pip:**
-**pip install numpy pandas matplotlib statsmodels fastapi uvicorn**
+'**You can install them via pip:**'
+'**pip install numpy pandas matplotlib statsmodels fastapi uvicorn**'
 
-**Update the model path:**
+'**Update the model path:**'
 In your FastAPI script, ensure the path to tsmodel.pkl is correct for your local machine or server.
 pickle_in = open("tsmodel.pkl", "rb")
 
-**Start the FastAPI Server:**
-**Run the following command in your terminal:**
+'**Start the FastAPI Server:**'
+'**Run the following command in your terminal:**'
 
 Bash
-**python app.py**
+'**python app.py**'
 
-**Access the API:**
+'**Access the API:**'
 The API will be hosted at http://127.0.0.1:9000. You can access the automatic interactive API documentation provided by FastAPI (Swagger UI) at:
 http://127.0.0.1:9000/docs
 
-**API Endpoints**
+'**API Endpoints**'
 1. Root Endpoint (GET /)
 Checks if the API is running.
 

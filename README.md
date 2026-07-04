@@ -530,6 +530,6 @@ This project is intended for educational purposes and can be freely modified for
 
 # 👨‍💻 Author
 
-**Shridhar Mankar**
+**Sidhartha Sankar**
 
 If you found this project helpful, consider giving the repository a ⭐ on GitHub.

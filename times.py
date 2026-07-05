@@ -9,7 +9,7 @@ model=pickle.load(pickle_in)
 
 @app.get('/')
 def index():
-    return {'Deployment': 'Hello and Welcome to 5 Minutes Engineering'}
+    return {'Deployment': 'Hello and Welcome'}
 
 @app.post('/predict')
 def predict(year:int ,month:int ,day:int):

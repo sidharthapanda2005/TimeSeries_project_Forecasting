@@ -4,7 +4,7 @@ import pickle
 from datetime import datetime
 
 app = FastAPI()
-pickle_in = open("/Users/shridharmankar/Complete Data Science Basics To Advanced/Time Series/tsmodel.pkl","rb")
+pickle_in = open("/path/tsmodel.pkl","rb")
 model=pickle.load(pickle_in)
 
 @app.get('/')
